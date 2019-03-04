@@ -1,0 +1,29 @@
+include _icons
+doctype html 
+html
+  head
+    title=title
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="stylesheets/style.css")
+  body
+    .container
+      .profile.hide(style="background-image: url(" + bgImage + ");")
+        a(href="#").menu
+          div Movies
+          +icon("menu")
+        .movies
+          include _movies
+      .information
+        h1.information__name 
+          small=firstname  
+          | #{lastname}
+        p.information__description= content
+        nav
+          ul
+            li
+              a(href="/") Home
+              a(href="charles") Charles Chaplin
+              a(href="marilyn") Marilyn Monroe
+              a(href="jean") Jean Simmons
+  script(src="javascript/myScript.js")
+  

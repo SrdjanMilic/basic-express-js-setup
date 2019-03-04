@@ -1,26 +1,19 @@
 {
-  "name": "quick",
+  "name": "express-js-app",
   "version": "1.0.0",
-  "description": ":) ",
+  "description": "Project for practice.",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon --exec babel-node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://gitlab.com/srdjanrmilic/express-js-app"
   },
-  "author": "Aurel kurtula",
-  "license": "MIT",
-  "homepage": "",
+  "author": "Srdjan Milic",
+  "license": "ISC",
   "dependencies": {
-    "express": "^4.16.2",
-    "pug": "^2.0.0-rc.4"
-  },
-  "devDependencies": {
-    "babel-preset-stage-3": "^6.22.0",
-    "babel-cli": "*",
-    "babel-core": "*",
-    "babel-preset-es2015-node5": "*",
-    "babel-register": "*"
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
   }
 }
