@@ -1,7 +1,7 @@
 {
   "name": "express-js-app",
   "version": "1.0.0",
-  "description": "Project for practice.",
+  "description": "Express.js basic setup.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

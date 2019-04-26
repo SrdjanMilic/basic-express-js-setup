@@ -1,3 +1,4 @@
-.vscode
+.directory
 node_modules
 .eslintrc.yml
+ecosystem.config.js
