@@ -23,6 +23,5 @@ app.get('/jean', (req, res) => {
   res.render('main', data.artist[2]);
 });
 
-// Enable bellow lines for localhost usage
-// const port = process.env.PORT || 5656;
-// app.listen(port, () => console.log(`Listening on port ${port}!`));
+const port = process.env.PORT || 3000;
+app.listen(port, () => console.log(`Listening on port ${port}!`));
