@@ -2,12 +2,8 @@ const data = require('./data/artists.json');
 const express = require('express');
 const app = express();
 
-app.set('trust proxy', 'loopback');
-
-// view engine setup
-app.set('view engine', 'pug');
-
-// app.listen(3000, () => console.log(`listening on port 3000!`));
+app.set('trust proxy', 'loopback'); // express behind proxies
+app.set('view engine', 'pug'); // view engine setup
 
 app.use(express.static(__dirname + '/public'));
 
@@ -26,3 +22,7 @@ app.get('/marilyn', (req, res) => {
 app.get('/jean', (req, res) => {
   res.render('main', data.artist[2]);
 });
+
+// Enable bellow lines for localhost usage
+// const port = process.env.PORT || 5656;
+// app.listen(port, () => console.log(`Listening on port ${port}!`));
