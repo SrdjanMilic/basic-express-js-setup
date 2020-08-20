@@ -2,7 +2,7 @@
 
 App is forked from "<https://github.com/aurelkurtula/basic-express-js-setup>" example.
 
-**Highlights**
+## Highlights
 - Code refactoring and code additions
 - Server side deployment and app routes adaptation
 - Apache proxy reverse settings
@@ -10,6 +10,3 @@ App is forked from "<https://github.com/aurelkurtula/basic-express-js-setup>" ex
 - Node.js and npm
 
 Please note, if you want to use app in your local environment you should change the routes accordingly.
-
-Site instance:  
-<http://188.166.11.99/express-js-app>
